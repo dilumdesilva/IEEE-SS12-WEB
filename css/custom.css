@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+.customCarousel{
+    margin: 0;
+    padding: 0;    
+}
+
+.carousel-indicators {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.sub-heading{
+    font-family: poppins;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.countdown-title{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .d-block {
+        height: 250px !important;
+    }
+
+    .countdown-title{
+       padding-top: 1.5em;
+    }
+}

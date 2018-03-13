@@ -1,0 +1,34 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nav {
+    border-bottom: none;
+  }
+
+  .pathways-additional {
+    margin-top: 7em;
+  }
+
+  .card-group {
+    margin-top: 2em !important;
+  }
+
+  .card-head, .about-lead {
+    color: #FFFFFF;
+    text-align: center !important;
+    margin: 0 auto !important;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #card-1, #card-2, #card-3, #card-4 {
+    margin: 2em 2em 2em 2em;
+    background-color: #F4F4F4;
+    border-radius: 0.7rem !important;
+    padding: 1em;
+  }
+
+  .pathways-card-text {
+    text-align: justify;
+  }

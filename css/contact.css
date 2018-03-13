@@ -1,0 +1,66 @@
+.contact {
+    background-color: #4B66A4;   
+    padding-bottom: 2em; 
+}
+
+.contact-responsive {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+}
+
+.contact-deck {
+    margin: 2em auto;    
+}
+
+.contact-card {
+    border-radius: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-right: 1px solid rgba(255,255,255,0.25) !important;
+    background-color: #4B66A4;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+#contact-card-3 {
+    border-right: 0 !important;
+}
+
+.contact-icons {
+    margin-right: 2em;
+}
+
+@media only screen and (max-width: 575px) {
+    .contact-card {
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-top: 0 !important;
+        border-bottom: 1px solid rgba(255,255,255,0.25) !important;
+        font-size: 0.9rem;
+    }
+
+    #contact-card-3 {
+        border-bottom: 0 !important;
+    }
+
+    .contact-card-body {
+        text-align: left !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .contact-card-body {
+        text-align: center !important;
+    }
+
+    .contact-icons {
+        margin-right: 0em;
+        display: inline !important;
+    }
+
+    .text-inline img::after {
+        content: "\A" !important;
+        white-space: pre !important;
+    }
+}

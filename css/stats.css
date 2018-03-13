@@ -1,0 +1,47 @@
+ .statsBack{
+    background-color: #4b66AF;
+    width: 100%;
+    background-position: center;
+}
+
+.statistics{
+    background-color: #4b66AF;
+    color: white;
+    height: 25em !important; 
+    padding-top: 1.5em;
+    padding-top: 1em;
+  }
+
+ .stat{
+    margin: 7em auto;
+  }
+
+  .statImg{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  }
+  
+  .innerImg{
+    width: 13em;
+    height: 13em;
+  }
+
+  
+  @media only screen and (max-width: 500px) {
+  .innerImg{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+  }
+
+  .stat{
+    margin: 4em auto;
+  }
+
+  .statistics{
+    background-color: #4b66af;
+    color: white;
+    height: 40em !important;
+  }
+
+}

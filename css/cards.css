@@ -1,0 +1,104 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar-ul {
+  margin: 0px 10px !important;
+  max-width: none !important;
+}
+
+.card-head {
+  margin-top: 1em; 
+  text-align: center !important;
+  width: 100%;
+}
+
+.lead {
+  margin-bottom: 2em;
+}
+
+.pathways {
+  background-color: #F4F4F4;  
+  padding-bottom: 4em; 
+}
+
+.placeholder {
+  background-color: #4B66A4;
+  color: #FFFFFF !important;
+}
+
+.nav {
+  border-bottom: none;
+}
+
+#ieee-card {
+  background-color: #F4F4F4;
+  border-radius: 0px !important;
+  border: 0px !important;
+  margin: 0;
+  padding : 0;
+}
+
+.card-group {
+  margin-top: 2em !important;
+}
+
+.pathways-card {  
+  border-radius: 0px !important;
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;  
+  background-color: #F4F4F4 !important;
+}
+
+.pathways-card-text {
+  text-align: justify;
+}
+
+#card-4 {  
+  border-right: 0px !important;
+}
+
+.know-more-btn {  
+  background-color: #CCCCCC; 
+  color: #666666; 
+  border: none;
+}
+.know-more-btn:hover {
+  background-color: #4B66A4;
+  color: #FFFFFF; 
+}
+
+@media only screen and (max-width: 500px) {
+  .card-group {
+    text-align: center !important; 
+    margin: 0em auto !important;
+  }  
+
+  .card-head {
+    margin-top: 1em !important;
+    font-size: 2rem !important;
+    font-weight: 250 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+  }
+
+  .lead {
+    font-size: 1rem !important;
+  }
+
+  .pathways-card {
+    border: 0px !important;    
+  }   
+
+  #card-1 {
+    margin-top: 2em;  
+    border-bottom: 1px solid rgba(33,33,33,0.15) !important;        
+  } 
+
+  #card-2, #card-3, #card-4 {
+    margin-top: 5px;  
+    border-bottom: 1px solid rgba(33,33,33,0.15) !important;     
+  }
+
+}

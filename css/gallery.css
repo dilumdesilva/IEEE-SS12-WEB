@@ -1,0 +1,23 @@
+.gallery-item{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.gallery-section{
+  padding: 2rem;  
+}
+
+.gallery-back{
+  background-color: #F4F4F4;
+}
+
+.pills-content-gallery{ 
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery-title{
+  background-color: #4B66AF;
+  padding: 4rem;
+  color: #F4F4F4;
+}

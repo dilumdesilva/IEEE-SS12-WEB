@@ -1,0 +1,14 @@
+.map-venue {
+    background-color: #F4F4F4;
+}
+
+.map-responsive {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.map-iframe {
+    width: 100%;
+}

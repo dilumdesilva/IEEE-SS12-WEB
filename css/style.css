@@ -1,0 +1,39 @@
+
+.counter {
+  height: 18em !important;
+  background-color: #4b66af;
+  color: white;
+}
+
+#clock{
+  margin: 2em auto;
+  font-size: 0.8em;
+}
+
+.numText{
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 500px) {
+  #clock{
+    margin: 1em auto;
+    font-size: 0.3em;
+  }
+
+  .counter {
+    height: 10em !important;
+  }
+
+  .numText{
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+
+  
+
+  
+
+}

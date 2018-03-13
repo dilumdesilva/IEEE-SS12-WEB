@@ -1,0 +1,52 @@
+.project-areas{
+    background-color:#4b66af;
+    color: white;
+    height: 60em !important;
+  }
+
+.cat-img{
+    margin-top: 3rem;
+    float: left;
+}
+
+.cat-size-img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.title-main{
+    font-family: poppins;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+.title-sub{
+    font-family: poppins;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cat-back{
+    background-color: #4B66AF;
+    padding: 4rem;
+}
+
+.cat-back-color{
+    background-color: #4B66AF;
+}
+
+@media only screen and (max-width: 600px) {
+    .cat-back-color{
+        background-color: #4B66AF;
+    }
+
+    .cat-size-img{
+        width: 8rem;
+        height: 8rem;
+    }
+}
