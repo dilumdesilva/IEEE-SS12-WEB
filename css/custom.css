@@ -2,6 +2,10 @@ body{
     margin:0;
 }
 
+#carousel {
+    height: 100vh !important;
+}
+
 .customCarousel{
     margin: 0;
     padding: 0;    
