@@ -30,6 +30,53 @@ body{
     font-size: 1.5rem;
 }
 
+
+
+/* Styles or Organizer Card */
+.feature-image-org {
+    position: relative;
+    top: -120px;
+    margin-bottom: -110px;
+  }
+  
+  .feature-image-org .img-thumbnail{
+    background:transparent;
+    border:none !important;
+  }
+
+  section#organizer-team {
+    background: white;
+    padding: 48px;
+}
+
+.card.org-card {
+    margin-top: 90px;
+}
+
+
+.organization-member {
+    text-align: center;
+}
+
+
+.organization-member .btn {
+
+    margin:12px 0;
+}
+
+.container.org-row-margin .row {
+    margin-bottom: 48px;
+}
+
+.container.org-row-margin .row:last-child {
+    margin-bottom: 12px;
+}
+
+img#main-logo {
+    height: 60px;
+}
+
+
 @media only screen and (max-width: 500px) {
     .d-block {
         height: 250px !important;
@@ -38,4 +85,20 @@ body{
     .countdown-title{
        padding-top: 1.5em;
     }
+
+    .feature-image-org {
+        top: auto;
+        margin-bottom: auto;
+      }
+    
+      
+.container.org-row-margin .row {
+    margin-bottom: 0px;
+}
+
+.card.org-card {
+    margin-top: 45px;
+}
+
+
 }
