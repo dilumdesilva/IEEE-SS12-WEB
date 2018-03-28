@@ -76,6 +76,14 @@ img#main-logo {
     height: 60px;
 }
 
+.organization-member h5.card-title {
+    height: 50px;
+}
+
+.organization-member h5.card-title + h6 {
+    height:40px;
+}
+
 
 @media only screen and (max-width: 500px) {
     .d-block {
@@ -98,6 +106,14 @@ img#main-logo {
 
 .card.org-card {
     margin-top: 45px;
+}
+
+.organization-member h5.card-title {
+    height: auto;
+}
+
+.organization-member h5.card-title + h6 {
+    height:auto;
 }
 
 
