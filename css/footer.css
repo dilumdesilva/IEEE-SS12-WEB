@@ -16,7 +16,7 @@
 }
 
 .clear:hover {
-    color: #4B66AF;
+    color: #00c588;
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .footer-logo-item:hover{
-    fill: #4B66AF;
+    fill: #00c588;
 }
 
 .footer-logo-content{

@@ -1,5 +1,5 @@
 .project-areas{
-    background-color:#4b66af;
+    background-color: #00415b;
     color: white;
     height: 60em !important;
   }
@@ -32,17 +32,17 @@
 }
 
 .cat-back{
-    background-color: #4B66AF;
+    background-color: #00415b;
     padding: 4rem;
 }
 
 .cat-back-color{
-    background-color: #4B66AF;
+    background-color: #00415b;
 }
 
 @media only screen and (max-width: 600px) {
     .cat-back-color{
-        background-color: #4B66AF;
+        background-color: #00415b;
     }
 
     .cat-size-img{
